@@ -4,7 +4,7 @@ mkdir /jffs/opt
 mkdir /tmp/opt
 ln -nsf /jffs/opt /tmp/opt
 # mount -o bind /jffs/opt /opt
-wget -O - http://bin.entware.net/armv7sf-k2.6/installer/generic.sh |sh
+wget -O - http://bin.entware.net/aarch64-k3.10/installer/generic.sh | sh
 
 cat > /jffs/scripts/services-start << EOF
 #!/bin/sh
